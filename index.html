@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nucba NFT</title>
     <link rel="stylesheet" href="./imagenes/styless.css">
+    <link rel="stylesheet" href="./imagenes/mediaqueries">
 </head>
 
 <body>
@@ -14,6 +15,12 @@
         <img src="./imagenes/Mi proyecto.png" alt="LogoDPM" class="logo">
 
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./imagenes/menu1.png" alt="icono menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
+
             <ul class="navbar-list">
                 <li>
                     <a href="#">Home</a>
@@ -28,7 +35,40 @@
                     <a href="#">Contactenos</a>
                 </li>
             </ul>
-            <img src="./imagenes/shoppingcart_120371.png" alt="carrito" class="cart-icon">
+
+            <label for="cart-toggle" class="cart-label">
+                <img src="./imagenes/shoppingcart_120371.png" alt="carrito" class="cart-icon">
+            </label>
+            <input type="checkbox" id="cart-toggle">
+
+            <div class="cart">
+                <h2>Tus productos</h2>
+
+                <div class="cart-item">
+                    <img src="./imagenes/eukanuba.png" alt="unproducto">
+                    <div class="item-info">
+                        <h3 class="item-title">Eukanuba</h3>
+                        <p class="item-bid">3kg</p>
+                        <span class="item-price">$7500</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler.down">-</span>
+                        <span class="item-quantitly">1</span>
+                        <span class="quantitly-hander.up"></span>
+                    </div>
+                </div>
+
+                <span class="divider"></span>
+
+                
+                <div class="cart-total">
+                    <p>Total: </p>
+                    <span>$7500</span>
+                </div>
+                <button class="btn-add">Comprar</button>
+
+
+            </div>
         </nav>
     </header>
 
