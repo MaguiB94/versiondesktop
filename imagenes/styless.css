@@ -409,7 +409,7 @@ footer span {
     display: none;
 }
 
-.cart{
+.cart {
     position: absolute;
     top: 65px;
     right: 0;
@@ -425,50 +425,50 @@ footer span {
     z-index: 2;
 }
 
-.cart::-webkit-scrollbar{
+.cart::-webkit-scrollbar {
     display: none;
 }
 
 .cart h2 {
-    color:darksalmon;
+    color: black;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 6s00;
 }
 
-.cart-item{
+.cart-item {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: black;
+    background-color: var(--linear-gradient);
     padding: 20px;
     border: 1px solid chocolate;
     border-radius: 10px;
 }
 
 .cart-item img {
-    width: 65px;
+    width: 75px;
     height: 65px;
 }
 
-.item-info{
+.item-info {
     display: flex;
     flex-direction: column;
 }
 
-.item-title{
-    color:darkmagenta;
+.item-title {
+    color: darkmagenta;
     font-weight: 600;
     font-size: 14px;
 }
 
-.item-bid{
-    color:gray;
-    font-weight: 300;
+.item-bid {
+    color: grey;
+    font-weight: 200;
     font-size: 12px;
 }
 
-.item-price{
+.item-price {
     background: linear-gradient(to right, #30cfd0, #c43ad6);
     background-clip: text;
     color: transparent;
@@ -476,60 +476,60 @@ footer span {
     font-weight: 800;
 }
 
-.item-handler{
+.item-handler {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.quantitly-handler{
+.quantitly-handler {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2px 8px;
-    border-radius: 5px;
+    padding: 2px 0px;
+    border-radius: 15px;
     color: black;
     font-weight: 300;
 }
 
-.item-quatitly{
-    color:gray;
+.item-quatitly {
+    color: gray;
 }
 
-.down{
+.down {
     background-color: #c43ad6;
-    border: 1px solid chocolate;
-    cursor:pointer;
-}
-
-.up{
     border: 1px solid chocolate;
     cursor: pointer;
 }
 
-.divider{
+.up {
+    border: 1px solid fuchsia;
+    cursor: pointer;
+}
+
+.divider {
     margin-top: 20px;
     border: 0.5px solid blueviolet;
 }
 
-.cart-total{
+.cart-total {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.cart p{ 
-    color:black;
+.cart p {
+    color: black;
     font-weight: 700;
 }
 
-.cart-total span{ 
+.cart-total span {
     color: black;
     font-weight: 400;
     font-size: 18px;
 }
 
-#cart-toggle:checked + .cart {
+#cart-toggle:checked+.cart {
     display: flex;
 }
