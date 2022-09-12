@@ -20,6 +20,7 @@ header {
     padding: 0px 10px 0px 10px;
     position: fixed;
     top: 0px;
+    z-index: 2;
 }
 
 .logo {
@@ -65,6 +66,7 @@ header {
     font-weight: 600;
     cursor: pointer;
     height: 22px;
+    transition: all 0.2s ease-out;
 }
 
 main {
@@ -97,7 +99,11 @@ main {
     width: 80%;
     min-width: 500px;
     font-weight: 800;
-    color: black;
+    background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(207,24,238,1) 49%, rgba(231,197,128,0.6951155462184874) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
 }
 
 .info p {
@@ -369,6 +375,7 @@ main {
     color: black;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.2s ease-out;
 }
 
 footer {
@@ -378,8 +385,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding: 60px 0;
+    gap: 10px;
+    padding: 20px 0;
 }
 
 footer a,
@@ -390,7 +397,7 @@ footer p {
 }
 
 footer a:hover {
-    color: pink
+    color: blueviolet;
 }
 
 footer span {
@@ -471,6 +478,7 @@ footer span {
 .item-price {
     background: linear-gradient(to right, #30cfd0, #c43ad6);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     font-size: 16px;
     font-weight: 800;
@@ -480,31 +488,31 @@ footer span {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
-.quantitly-handler {
+.quantity-handler {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2px 0px;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 5px 5px;
     color: black;
     font-weight: 300;
+    transition: all 0.2s ease-in;
 }
 
-.item-quatitly {
-    color: gray;
+.item-quantity {
+    color: black;
 }
 
 .down {
-    background-color: #c43ad6;
-    border: 1px solid chocolate;
+    border: 1px solid;
     cursor: pointer;
 }
 
 .up {
-    border: 1px solid fuchsia;
+    border: 1px solid;
     cursor: pointer;
 }
 
@@ -520,7 +528,7 @@ footer span {
 }
 
 .cart p {
-    color: black;
+    color: grey;
     font-weight: 700;
 }
 
@@ -532,4 +540,14 @@ footer span {
 
 #cart-toggle:checked+.cart {
     display: flex;
+}
+
+.btn-load {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease-out;
 }
