@@ -166,7 +166,7 @@ html {
 
 .info h1 span {
     position: relative;
-    background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(207,24,238,1) 49%, rgba(231,197,128,0.6951155462184874) 100%);
+    background: lightcoral;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -183,12 +183,12 @@ html {
 }
 
 .info h1 span::before{
-    background-color: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(207,24,238,1) 49%, rgba(231,197,128,0.6951155462184874) 100%);
+    background-color: lightcyan;
     animation: typewriter 1.2s 1.4s steps(3) forwards;
 }
 
 .info h1 span::after{
     width: 0.1rem;
-    background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(207,24,238,1) 49%, rgba(231,197,128,0.6951155462184874) 100%);
+    background: lightcyan;
     animation: typewriter 1.2s 1.4s steps(3) forwards, blink 0.8s steps(3) infinite;
 }
