@@ -183,7 +183,7 @@ html {
 }
 
 .info h1 span::before{
-    background-color: var(--background);
+    background-color: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(207,24,238,1) 49%, rgba(231,197,128,0.6951155462184874) 100%);
     animation: typewriter 1.2s 1.4s steps(3) forwards;
 }
 

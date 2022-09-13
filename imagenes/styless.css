@@ -70,12 +70,11 @@ header {
 }
 
 main {
-    background: lightcyan;
+    background-color: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(207,24,238,1) 49%, rgba(231,197,128,0.6951155462184874) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black;
 }
 
 #alimentos {
@@ -97,7 +96,7 @@ main {
 .info h1 {
     font-size: 48px;
     width: 80%;
-    min-width: 500px;
+    min-width: 450px;
     font-weight: 800;
     background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(207,24,238,1) 49%, rgba(231,197,128,0.6951155462184874) 100%);
     background-clip: text;
